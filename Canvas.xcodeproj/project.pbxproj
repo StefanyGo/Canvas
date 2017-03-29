@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C2FBF821E8AECB3006AF018 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FBF811E8AECB3006AF018 /* CanvasViewController.swift */; };
 		9C31E1A11E84B970000E68D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31E1A01E84B970000E68D5 /* AppDelegate.swift */; };
-		9C31E1A31E84B970000E68D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31E1A21E84B970000E68D5 /* ViewController.swift */; };
 		9C31E1A61E84B970000E68D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C31E1A41E84B970000E68D5 /* Main.storyboard */; };
 		9C31E1A81E84B970000E68D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C31E1A71E84B970000E68D5 /* Assets.xcassets */; };
 		9C31E1AB1E84B970000E68D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C31E1A91E84B970000E68D5 /* LaunchScreen.storyboard */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C2FBF811E8AECB3006AF018 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 		9C31E19D1E84B970000E68D5 /* Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C31E1A01E84B970000E68D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C31E1A21E84B970000E68D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C31E1A51E84B970000E68D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C31E1A71E84B970000E68D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C31E1AA1E84B970000E68D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				9C31E1A01E84B970000E68D5 /* AppDelegate.swift */,
-				9C31E1A21E84B970000E68D5 /* ViewController.swift */,
 				9C31E1A41E84B970000E68D5 /* Main.storyboard */,
 				9C31E1A71E84B970000E68D5 /* Assets.xcassets */,
 				9C31E1A91E84B970000E68D5 /* LaunchScreen.storyboard */,
 				9C31E1AC1E84B970000E68D5 /* Info.plist */,
+				9C2FBF811E8AECB3006AF018 /* CanvasViewController.swift */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					9C31E19C1E84B970000E68D5 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3Y53364NYF;
 						ProvisioningStyle = Automatic;
 					};
 					9C31E1B01E84B970000E68D5 = {
@@ -259,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C31E1A31E84B970000E68D5 /* ViewController.swift in Sources */,
+				9C2FBF821E8AECB3006AF018 /* CanvasViewController.swift in Sources */,
 				9C31E1A11E84B970000E68D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +411,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3Y53364NYF;
 				INFOPLIST_FILE = Canvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Canvas;
@@ -422,6 +425,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3Y53364NYF;
 				INFOPLIST_FILE = Canvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Canvas;
@@ -503,6 +508,7 @@
 				9C31E1C71E84B970000E68D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C31E1C81E84B970000E68D5 /* Build configuration list for PBXNativeTarget "CanvasTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				9C31E1CA1E84B970000E68D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C31E1CB1E84B970000E68D5 /* Build configuration list for PBXNativeTarget "CanvasUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +526,7 @@
 				9C31E1CD1E84B970000E68D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
